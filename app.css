@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -7,13 +9,15 @@ html {
 }
 
 body {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 label,
 input,
 textarea {
-  display: block;
   margin: 0.5rem 0;
 }
 
@@ -26,7 +30,7 @@ textarea {
   font: inherit;
   padding: 0.2rem 0.4rem;
   width: 100%;
-  max-width: 30rem;
+
   border: 1px solid #ccc;
 }
 
@@ -123,6 +127,7 @@ button:active {
 #user-input {
   margin: 1rem;
   padding: 1rem;
+  min-width: 28rem;
   border: 1px solid #ff0062;
   background: #f7f7f7;
 }
