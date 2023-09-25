@@ -1,5 +1,5 @@
 //Validation
-interface Validatable {
+export interface Validatable {
   value: string | number;
   required?: boolean;
   minLength?: number;
@@ -8,7 +8,7 @@ interface Validatable {
   max?: number;
 }
 
-function validate(validatableInput: Validatable) {
+export function validate(validatableInput: Validatable) {
   let isValid = true;
   if (validatableInput.required) {
     isValid = isValid && validatableInput.value.toString().trim().length !== 0;

@@ -1,3 +1,5 @@
+import { Project, ProjectStatus } from "../models/project.js";
+
 //Project State Management
 type Listener<T> = (items: T[]) => void;
 
@@ -8,7 +10,7 @@ class State<T> {
   }
 }
 
-class ProjectState extends State<Project> {
+export class ProjectState extends State<Project> {
   private projects: Project[] = [];
   private static instance: ProjectState;
 
@@ -51,4 +53,4 @@ class ProjectState extends State<Project> {
   }
 }
 
-const projectState = ProjectState.getInstance();
+export const projectState = ProjectState.getInstance();
