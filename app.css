@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin: 0.5rem;
 }
 
 label,
@@ -96,6 +96,7 @@ button:active {
   padding: 1rem;
   margin: 1rem;
   background-color: white;
+  max-width: 28rem;
 }
 
 .projects li h2 {
@@ -112,8 +113,8 @@ button:active {
   font-size: 1rem;
 }
 
-.project li p {
-  margin: 0;
+.projects li p {
+  margin: 0.5rem 0;
 }
 
 .droppable {
