@@ -8,6 +8,7 @@
 - [Setup](#setup)
   - [Clone repo](#clone-repo)
   - [Run app](#run-app)
+- [Demo](#demo)
 
 # About The App
 
@@ -43,4 +44,8 @@ git clone https://github.com/KingaMiroslaw/drag-drop.git
 ## Run app
 
 Open the HTML file in a browser window. To do this, right-click on the index.html file in VSC and then select Open with Live Server.
+
+# Demo
+
+[See DEMO](https://drag-drop-chi-nine.vercel.app/)
 
